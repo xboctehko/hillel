@@ -1,0 +1,6 @@
+#!/usr/local/bin python
+s = "notnormal"
+r = ""
+for i, c in enumerate(s):
+  r += c if i % 2 else c.upper()
+print (r)
